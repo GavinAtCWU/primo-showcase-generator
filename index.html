@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Primo Showcase Generator</title>
+<link rel="stylesheet" href="style.css" />
+<script type="module" src="discovery-showcase.bundled.js"></script>
+<script src="showcase-generator.js"></script>
+</head>
+
+<body>
+
+<div class="field">
+<label for="primo_search_url">Primo Search URL:</label>
+<input type="text" id="primo_search_url" value="" />
+</div>
+
+<div class="field">
+<label for="showcase_title">Showcase Title:</label>
+<input type="text" id="showcase_title" value="" />
+</div>
+
+<div class="field">
+<input type="button" id="make_showcase" value="Generate Showcase" onclick="generateShowcase()" />
+</div>
+
+<div class="field">
+<textarea id="showcase_code" selected="selected"></textarea>
+</div>
+
+<div class="field">
+<input type="button" id="copy_showcase_code" value="Copy Showcase Code" onclick="copyShowcaseCode()" />
+</div>
+
+<div id="showcase"></div>
+
+</body>
+
+</html>
