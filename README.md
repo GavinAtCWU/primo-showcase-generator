@@ -1,1 +1,5 @@
-# primo-showcase-generator
+# Primo Showcase Carousel Generator
+
+## Overview
+
+## Installing / Using
